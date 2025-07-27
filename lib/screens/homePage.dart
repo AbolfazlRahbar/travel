@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:travel/widgets/appBar.dart';
+import 'package:travel/widgets/popularPlaces.dart';
 import 'package:travel/widgets/searchBar.dart';
 
 class Homepage extends StatelessWidget {
@@ -8,7 +9,16 @@ class Homepage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(children: [Appbar(), SizedBox(height: 8), Searchbar()]),
+      body: Column(
+        children: [
+          Appbar(),
+          SizedBox(height: 8),
+          Searchbar(),
+          SizedBox(height: 8),
+          Popularplaces(),
+          SizedBox(height: 8),
+        ],
+      ),
     );
   }
 }
