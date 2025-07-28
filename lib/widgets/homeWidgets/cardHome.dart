@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:travel/widgets/glassMorphism.dart';
+import 'package:travel/widgets/homeWidgets/glassMorphism.dart';
 
 class Cardhome extends StatelessWidget {
   final Widget iconGlassMorphism;

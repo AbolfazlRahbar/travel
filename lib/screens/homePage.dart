@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:travel/widgets/appBar.dart';
-import 'package:travel/widgets/cardHome.dart';
-import 'package:travel/widgets/popularPlaces.dart';
-import 'package:travel/widgets/searchBar.dart';
+import 'package:travel/widgets/homeWidgets/appBar.dart';
+import 'package:travel/widgets/homeWidgets/cardHome.dart';
+import 'package:travel/widgets/homeWidgets/popularPlaces.dart';
+import 'package:travel/widgets/homeWidgets/searchBar.dart';
 
 class Homepage extends StatelessWidget {
   const Homepage({super.key});

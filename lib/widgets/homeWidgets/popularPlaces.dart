@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:travel/widgets/popularPlacesBox.dart';
+import 'package:travel/widgets/homeWidgets/popularPlacesBox.dart';
 
 class Popularplaces extends StatelessWidget {
   const Popularplaces({super.key});
@@ -25,12 +25,14 @@ class Popularplaces extends StatelessWidget {
                 ),
                 TextButton(
                   onPressed: () {},
-                  child: Text(
-                    'View all',
-                    style: TextStyle(
-                      fontSize: 16,
-                      fontWeight: FontWeight.w600,
-                      color: Colors.grey,
+                  child: GestureDetector(
+                    child: Text(
+                      'View all',
+                      style: TextStyle(
+                        fontSize: 16,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.grey,
+                      ),
                     ),
                   ),
                 ),
