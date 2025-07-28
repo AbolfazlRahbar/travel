@@ -18,7 +18,7 @@ class Cardhome extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsetsGeometry.only(top: 48, bottom: 12),
+      padding: EdgeInsetsGeometry.only(top: 48, bottom: 12, left: 12),
       child: Align(
         alignment: Alignment.centerLeft,
         child: Stack(

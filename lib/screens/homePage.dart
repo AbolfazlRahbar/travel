@@ -19,6 +19,32 @@ class Homepage extends StatelessWidget {
             SizedBox(height: 8),
             Popularplaces(),
             SizedBox(height: 8),
+            SingleChildScrollView(
+              scrollDirection: Axis.horizontal,
+              child: Row(
+                children: [
+                  Cardhome(
+                    ratingText: '4.8',
+                    titleCard: 'Mount Fuji, Tokyo',
+                    subTitleCard: 'Tokyo, Japan',
+                    iconGlassMorphism: Icon(
+                      Icons.favorite_border_outlined,
+                      color: Colors.white,
+                    ),
+                  ),
+                  SizedBox(width: 12),
+                  Cardhome(
+                    ratingText: '7.5',
+                    titleCard: 'Andes, South',
+                    subTitleCard: 'South, America',
+                    iconGlassMorphism: Icon(
+                      Icons.favorite_border_outlined,
+                      color: Colors.white,
+                    ),
+                  ),
+                ],
+              ),
+            ),
           ],
         ),
       ),
