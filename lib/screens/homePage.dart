@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:travel/widgets/appBar.dart';
+import 'package:travel/widgets/cardHome.dart';
 import 'package:travel/widgets/popularPlaces.dart';
 import 'package:travel/widgets/searchBar.dart';
 
@@ -17,6 +18,7 @@ class Homepage extends StatelessWidget {
           SizedBox(height: 8),
           Popularplaces(),
           SizedBox(height: 8),
+          Cardhome(),
         ],
       ),
     );
