@@ -10,16 +10,17 @@ class Homepage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        children: [
-          Appbar(),
-          SizedBox(height: 8),
-          Searchbar(),
-          SizedBox(height: 8),
-          Popularplaces(),
-          SizedBox(height: 8),
-          Cardhome(),
-        ],
+      body: SingleChildScrollView(
+        child: Column(
+          children: [
+            Appbar(),
+            SizedBox(height: 8),
+            Searchbar(),
+            SizedBox(height: 8),
+            Popularplaces(),
+            SizedBox(height: 8),
+          ],
+        ),
       ),
     );
   }
