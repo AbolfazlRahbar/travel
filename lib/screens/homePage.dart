@@ -42,6 +42,25 @@ class Homepage extends StatelessWidget {
                       color: Colors.white,
                     ),
                   ),
+                  Cardhome(
+                    ratingText: '4.8',
+                    titleCard: 'Mount Fuji, Tokyo',
+                    subTitleCard: 'Tokyo, Japan',
+                    iconGlassMorphism: Icon(
+                      Icons.favorite_border_outlined,
+                      color: Colors.white,
+                    ),
+                  ),
+                  SizedBox(width: 12),
+                  Cardhome(
+                    ratingText: '7.5',
+                    titleCard: 'Andes, South',
+                    subTitleCard: 'South, America',
+                    iconGlassMorphism: Icon(
+                      Icons.favorite_border_outlined,
+                      color: Colors.white,
+                    ),
+                  ),
                 ],
               ),
             ),
