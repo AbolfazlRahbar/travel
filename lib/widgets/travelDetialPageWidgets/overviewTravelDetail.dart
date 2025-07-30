@@ -8,7 +8,6 @@ class Overviewtraveldetail extends StatelessWidget {
     return Container(
       padding: EdgeInsets.only(left: 12),
       height: 200,
-      color: Colors.amber,
       child: Column(
         children: [
           Row(
