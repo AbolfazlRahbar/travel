@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:travel/shared/widgets/glassMorphism.dart';
+import 'package:travel/widgets/homeWidgets/glassMorphism.dart';
 
 class Cardtraveldetailpage extends StatelessWidget {
   const Cardtraveldetailpage({super.key});
