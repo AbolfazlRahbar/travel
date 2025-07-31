@@ -63,6 +63,37 @@ class Overviewtraveldetail extends StatelessWidget {
                 ),
               ),
             ),
+            SizedBox(height: 26),
+            Padding(
+              padding: EdgeInsetsGeometry.symmetric(horizontal: 12),
+              child: ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.black,
+                  elevation: 1,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadiusGeometry.circular(20),
+                  ),
+                ),
+                onPressed: () {},
+                child: Padding(
+                  padding: EdgeInsetsGeometry.all(12),
+                  child: Row(
+                    children: [
+                      Text(
+                        'Book Now',
+                        style: TextStyle(
+                          fontSize: 20,
+                          fontWeight: FontWeight.w500,
+                          color: Colors.white,
+                        ),
+                      ),
+                      SizedBox(width: 4),
+                      Icon(Icons.message_outlined, color: Colors.white),
+                    ],
+                  ),
+                ),
+              ),
+            ),
           ],
         ),
       ),
